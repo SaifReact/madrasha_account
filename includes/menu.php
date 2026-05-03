@@ -20,15 +20,15 @@ $status = isset($_SESSION['status']) ? $_SESSION['status'] : '';
             <span style="
                 display: inline-block;
                 font-family: 'Poppins', Arial, sans-serif;
-                font-size: .9rem;
-                font-weight: 700;
-                color: #b85c38;
+                font-size: 1rem;
+                font-weight: 900;
+                color: #179810;
                 letter-spacing: 1.5px;
                 text-shadow: 1px 2px 8px #fff8, 0 2px 8px #b85c3822;
                 padding: 0.2em 0.1em;
                 margin: 0.2em 0;
             ">
-                <span style="vertical-align:middle; font-size: 1rem;">
+                <span style="vertical-align:middle; font-size: 1.2rem;">
                     <?= htmlspecialchars($site_name_bn); ?>
                 </span><br />
                 <?= htmlspecialchars($site_name_en); ?>
