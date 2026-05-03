@@ -1,0 +1,365 @@
+/* Custom CSS for Coder Pesajibi Samabay Samity Ltd. */
+.card { transition:all .2s ease-in-out;
+        border-radius: 16px; }
+.card:hover{
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.choose-card {
+    padding:40px 30px 30px;
+    border-radius: 4px 50px 50px 50px;
+    border:1px solid #78b7b44a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    margin-bottom: 30px;
+    transition: all .2s ease-in;
+    background: var(--natural-color);
+}
+.choose-card:hover {
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+}
+.choose-card p{
+    text-align: left;
+}
+.glass-card {
+    background: rgba(255,255,255,0.75);
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 23px;
+}
+.glass-card-header {
+    background: rgba(255,255,255,0.75);
+    padding: 15px;
+}
+.form-label {
+    font-weight: 600;
+    color: #008080;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px #b85c3844;
+    font-size: 12px !important;
+}
+
+.form-control, .form-select {
+    border-radius: 1.2rem;
+    background: rgba(255,255,255,0.95);
+    border: 1.5px solid #e7b17a;
+    box-shadow: 0 1px 8px #b85c3811;
+    transition: box-shadow 0.2s, border-color 0.2s, background 0.2s;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #b85c38;
+    box-shadow: 0 0 0 0.2rem rgba(184,92,56,.18);
+    background: #fffbe9;
+}
+.section-card {
+    background: linear-gradient(120deg, #f8e1d4 0%, #f3f3f3 100%);
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 12px #b85c3822;
+    padding: 1rem 1.5rem;
+    margin-bottom: .5rem;
+    border: 1.5px solid #e7b17a;
+}
+.section-card h5 {
+    color: #b85c38;
+    font-size: 1rem;
+    letter-spacing: .8px;
+    text-align: center;
+    font-weight: 600;
+}
+.btn-success {
+    background: linear-gradient(90deg,#b85c38 0,#e7b17a 100%);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-success:hover, .btn-success:focus {
+    background: linear-gradient(90deg,#e7b17a 0,#b85c38 100%);
+    color: #fff;
+}
+.table thead {
+    background: linear-gradient(90deg,#f8e1d4 0,#e7b17a 100%);
+}
+.rounded-pill {
+    border-radius: 2rem!important;
+}
+.login-card {
+    background: rgba(255,255,255,0.85);
+    border-radius: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 2.5rem 2rem;
+    max-width: 400px;
+    margin: 4rem auto;
+}
+.login-title {
+    color: #b85c38;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 8px #fff8;
+}
+.members-table-card {
+    background: rgba(255,255,255,0.92);
+    border-radius: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 2.5rem 2rem;
+    margin: 4rem auto;
+}
+.members-title {
+    color: #b85c38;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 8px #fff8;
+}
+
+.certificate-container-samity {
+    width: 275mm;  /* A4 Landscape width */
+    height: 150mm; /* A4 Landscape half height */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.certificate-container-project {
+    width: 275mm;  /* A4 Landscape width */
+    height: 175mm; /* A4 Landscape half height */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.certificate-border {
+    border: 8px solid #8B4513;
+    border-image: repeating-linear-gradient(
+        45deg,
+        #8B4513,
+        #8B4513 10px,
+        #D2691E 10px,
+        #D2691E 20px
+    ) 8;
+    margin: 3mm;
+    padding: 0;
+    height: calc(148mm - 16mm);
+    position: relative;
+    background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+    page-break-inside: avoid;
+}
+
+/* Decorative corners */
+.certificate-border::before,
+.certificate-border::after {
+    position: absolute;
+    font-size: 20px;
+    color: #8B4513;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+.certificate-border::before {
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 15px;
+}
+
+.certificate-border::after {
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 15px;
+}
+
+/* Header Section with Logo */
+.certificate-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid #8B4513;
+    background: linear-gradient(to bottom, #fff8e7 0%, #ffffff 100%);
+}
+
+.certificate-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+    flex-shrink: 0;
+    padding: 0px;
+}
+
+.certificate-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.certificate-header-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.certificate-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #8B4513;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.certificate-reg {
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: #333;
+    font-weight: 700;
+}
+
+.certificate-slogan {
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+    margin-top: 3px;
+}
+
+.serial-number {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Certificate Title */
+.share-certificate-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0 10px;
+    color: #8B4513;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-underline-offset: 5px;
+}
+
+/* Certificate Body */
+.certificate-body {
+    padding: 10px 30px 15px;
+    position: relative;
+}
+
+.certificate-body::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-image: url('<?php echo BASE_URL; ?>assets/img/<?= htmlspecialchars($logo) ?>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.certificate-content {
+    font-size: 14px;
+    line-height: 35px;
+    text-align: justify;
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+
+.certificate-content p {
+    margin-bottom: 8px;
+}
+
+.certificate-content .fill-blank {
+    display: inline-block;
+    border-bottom: 1px dotted #333;
+    min-width: 120px;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 8px;
+    color: #000;
+}
+
+/* Signature Section */
+.signature-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.signature-box {
+    text-align: center;
+}
+
+.signature-image {
+    max-width: 150px;
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0 auto 8px;
+    display: block;
+}
+
+.signature-line {
+    border-top: 2px solid #333;
+    width: 150px;
+    margin: 0 auto 8px;
+}
+
+.signature-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Download Button */
+.download-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+    .certificate-container {
+        box-shadow: none;
+        margin: 0;
+    }
+    .download-btn {
+        display: none;
+    }
+}
+
+
